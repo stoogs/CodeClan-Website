@@ -1,0 +1,156 @@
+body {
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
+    height: 100%;
+    background-color: rgba(25,15,255,.2);
+}
+a {
+    color: #1a2fa8;
+}
+p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+h2 {
+    color: #1a2fa8;
+    font-size: 30;
+    font-style: bold;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ul  {
+    font-size: 20;
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+footer {
+    text-align: center;
+    justify-content: center;
+    grid-column: 1 / 4;
+    color:goldenrod;
+    position: fixed;
+    Width: 100%;
+    bottom:0;
+    font-size: 20px;
+}
+
+.pic img {
+    max-height: auto;
+    max-width: 75%;
+    border-radius: 25px;
+
+}
+
+.Menu_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 2;
+    grid-gap: 100px;
+    width: 90%;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px auto auto auto;
+    font-family: Arial, Helvetica, sans-serif;
+    grid-gap: 20px 20px;
+}
+
+.info {
+    grid-row-start: 2;
+    justify-content: center;
+    text: left;
+}
+
+.Me {
+    justify-content: center;
+    grid-column-start: 1;
+    background-color: slategrey;
+    border-radius: 10px;
+    border: 2px solid rgb(10,10,10);
+    max-height: 25px;
+}
+
+
+.Me:hover {
+    opacity: 0.5;
+    text-shadow: 1px 1px 0 rgb(25, 25, 25);
+    border: 2px solid rgb(50,50,200);
+}
+
+
+.Codeclan {
+    justify-content: center;
+    background-color: slategrey;
+    border-radius: 10px;
+    border: 2px solid rgb(10,10,10);
+    max-height: 25px;
+    
+}
+
+.Codeclan:hover {
+    opacity: 0.5;
+    text-shadow: 1px 1px 0 rgb(25, 25, 25);
+}
+
+.map {
+    justify-content: center;
+    background-color: slategrey;
+    border-radius: 10px;
+    border: 2px solid rgb(10,10,10);
+    max-height: 25px;
+}
+.map:hover {
+    opacity: 0.5;
+    text-shadow: 1px 1px 0 rgb(25, 25, 25);
+}
+
+.embed {
+
+    justify-content: center;
+    grid-column-start: 3;
+    grid-row-start: 2;
+    border: 2px solid rgb(10,10,10);
+    border-radius: 4px;
+    max-width: fit-content;
+    max-height: auto;
+}
+
+.CCpic img{
+
+    max-height: auto;
+    max-width: 80%;
+    border-radius: 25px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.cry img {
+    float: left;
+    width: auto;
+    height: 50px;
+    padding-right: 10px;
+}
+
+.learn {
+    grid-column-start: 2;
+    grid-row-start: 3; 
+    color:red;
+}
+
+a:visited {
+    text-decoration: none;
+}
+a:link {
+    text-decoration: none;
+}
+footer:link {
+    text-decoration: none;
+}
+footer:visited {
+    text-decoration: none;
+}
