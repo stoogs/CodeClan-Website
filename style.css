@@ -16,19 +16,27 @@ p {
     margin-left: 10%;
     margin-right: 10%;
 }
-h2 {
+
+h1 {
     color: #1a2fa8;
     font-size: 30;
     font-style: bold;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+h2 {
+    color: goldenrod;
+    font-size: 30;
+    font-style: bold;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 h3 {
-    color: #black;
-    font-size: 16;
+    color: black;
+    font-size: 12;
     text-align: center;
 }
-
 
 ul  {
     font-size: 20;
@@ -43,7 +51,6 @@ ul  {
     max-height: auto;
     max-width: 75%;
     border-radius: 25px;
-
 }
 
 .Menu_grid {
@@ -134,7 +141,7 @@ ul  {
     padding-right: 10px;
 }
 
-.learn {
+.AboutMe {
     grid-row: 3;
     grid-column: 1 / -1;
     color: black;
@@ -150,19 +157,16 @@ ul  {
     border-radius: 25px;
     height: auto;
     width: 100%;
-
 }
 
 .footer {
     grid-row: 4;
     grid-column: 2;
     text-align: center;
-    justify-content: center;
     grid-column: 1 / 4;
-    color:goldenrod;
-    position: fixed;
+    color: goldenrod;
+    position: bottom;
     Width: 100%;
-    bottom:0;
     font-size: 20px;
 }
 a:visited {
